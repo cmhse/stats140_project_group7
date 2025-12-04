@@ -1,1 +1,12 @@
-## Readme ig
+Hello! Welcome to our GitHub Repo for our Stats 140XP Final Group Project examining the political influences on US Drone Strike policy abroad! Our group members are comprised of Charlie Hoose, Kendall Keely, Mackenzie Lindholm, Claire Nabours, JJ Svenson, and Blair Warren.
+
+This repo contains all of our data files and code that we used to manipulate the data, create visualizations, and analyze using statistical tests. The breakdown of the files goes as follows:
+
+The "data_files" folder contains all of our datasets, including the ones downloaded from the Guardian about drone strike data in Pakistan, Yemen, and Somalia. The datasets following the form "df_country.csv" pull only the necessary data from the Guardian excel files. The "political_swing.csv" file contains the data on US political party control over the twenty-first century in Congress and the presidency. Finally, the file, "df_combined.csv" is our finalized dataset, which has all preprocessing, editting, transformations, etc. applied to it.
+
+The file, "stats140_data_transformation.Rmd," and subsequent pdf show all of the data processing that was done to go from the Guardian's excel sheets to our finalized df_combined.csv.
+
+The file, "," includes the EDA plots and graphs made for the project, based off of the data in df_combined.
+
+THe file, "," is our final report, which also includes the statistical tests and analyses used in arriving at our conclusions.
+
