@@ -1,0 +1,97 @@
+---
+title: "EDA_Lethality"
+author: "Blair Warren"
+date: "2025-11-19"
+output: html_document
+---
+
+```{r}
+somalia <- read.csv('df_somalia.csv')
+pakistan <- read.csv('df_pakistan.csv')
+yemen <- read.csv('df_yemen.csv')
+combined <- read.csv('df_combined.csv')
+```
+
+
+```{r}
+head(pakistan)
+```
+```{r}
+colnames(pakistan)
+```
+
+```{r}
+colnames(combined)
+```
+
+```{r}
+colnames(yemen)
+```
+
+```{r}
+head(yemen)
+```
+
+```{r}
+colnames(somalia)
+```
+```{r}
+head(somalia)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+
+# Create a "best guess" lethality per strike and a country variable
+yemen_eda <- yemen %>%
+  mutate(
+    country = "Yemen",
+    best_killed = (Minimum.people.killed + Maximum.people.killed) / 2
+  )
+
+somalia_eda <- somalia %>%
+  mutate(
+    country = "Somalia",
+    best_killed = (Minimum.people.killed + Maximum.people.killed) / 2
+  )
+
+strikes <- bind_rows(yemen_eda, somalia_eda) %>%
+  mutate(Year = as.integer(Year))   # make sure Year is numeric
+
+```
+
+```{r}
+ggplot(strikes, aes(x = best_killed, fill = country)) +
+  geom_histogram(alpha = 0.5, position = "identity", bins = 30) +
+  coord_cartesian(xlim = c(0, 40)) +   
+  labs(
+    title = "Distribution of Estimated Lethality per Strike",
+    x = "Estimated people killed per strike",
+    y = "Number of strikes",
+    fill = "Country"
+  ) +
+  theme_minimal()
+
+```
+```{r}
+yearly_lethality <- strikes %>%
+  group_by(country, Year) %>%
+  summarise(
+    mean_killed = mean(best_killed, na.rm = TRUE),
+    n_strikes   = n(),
+    .groups = "drop"
+  )
+
+ggplot(yearly_lethality, aes(x = Year, y = mean_killed, color = country)) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = "Average Lethality per Strike Over Time",
+    x = "Year",
+    y = "Average estimated people killed per strike",
+    color = "Country"
+  ) +
+  theme_minimal()
+
+```

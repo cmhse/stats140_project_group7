@@ -1,0 +1,8 @@
+---
+title: "Stats 140 Final Project Exploratory Data Analysis"
+author: "Charlie Hoose, Kendall Keely, Mackenzie Lindholm, Claire Nabours, JJ Svenson, Blair Warren"
+date: "2025-12-04"
+output: pdf_document
+---
+
+This file contains the code for all of the plots, graphs, etc. shown in this project. If there are issues running this code, please reach out.

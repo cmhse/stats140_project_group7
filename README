@@ -6,8 +6,8 @@ The "data_files" folder contains all of our datasets, including the ones downloa
 
 The file, "stats140_data_transformation.Rmd," and subsequent pdf show all of the data processing that was done to go from the Guardian's excel sheets and political file to our finalized df_combined.csv.
 
-The file, "," includes the EDA plots and graphs made for the project, based off of the data in df_combined.
+The folder, "eda_files," includes the EDA plots and graphs made for the project, based off of the data in df_combined. Because all members in our group worked on different parts of the EDA as per an earlier assignment, there are separate files for different parts of the analysis.
 
-The file, "," is our final report, which also includes the statistical tests and analyses used in arriving at our conclusions.
+The file, "Stats 140XP Group 7 Final Report.qmd," and subsequent pdf ("Democrat vs Republican...") is our final report, which also includes the statistical tests and analyses used in arriving at our conclusions.
 
-If you have any questions or issues, please feel free to reach out! Thank you
+If you have any questions or issues, please feel free to reach out! Thank you.

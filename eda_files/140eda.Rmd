@@ -1,0 +1,129 @@
+---
+title: "140eda"
+author: "mackenzie lindholm"
+date: "2025-11-19"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+```{r}
+drones <- read.csv("/Users/mackenzielindholm/Downloads/df_combined.csv")
+head(drones)
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+military_civilian_deaths_year <- drones |> 
+  group_by(year) |>
+  summarize(military_deaths = sum(med_military_killed, na.rm = TRUE),
+            civilian_deaths = sum(med_civilians_killed, na.rm = TRUE))
+military_civilian_deaths_year
+```
+
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+plot_df <- drones |> 
+  group_by(year) |>
+  summarize(military_deaths = sum(med_military_killed, na.rm = TRUE),
+            civilian_deaths = sum(med_civilians_killed, na.rm = TRUE)) |> 
+  pivot_longer(
+    cols = c(military_deaths, civilian_deaths),
+    names_to = "type",
+    values_to = "deaths"
+  )
+
+ggplot(plot_df, aes(x = year, y = deaths, fill = type)) +
+  geom_col(position = "stack") +
+  scale_fill_manual(values = c(
+    civilian_deaths = "darkgray",
+    military_deaths = "darkgreen"
+  )) +
+  labs(
+    title = "Civilian vs Military Deaths per Year from Drone Strikes",
+    x = "Year", y = "People killed"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+with_adults <- drones |>
+  mutate(
+    med_adults_killed = med_civilians_killed - med_children_killed
+  )
+
+plot_df <- with_adults |> 
+  group_by(year) |>
+  summarize(children_deaths = sum(med_children_killed, na.rm = TRUE),
+            adult_deaths = sum(med_adults_killed, na.rm = TRUE)) |> 
+  pivot_longer(
+    cols = c(children_deaths, adult_deaths),
+    names_to = "type",
+    values_to = "deaths"
+  )
+
+ggplot(plot_df, aes(x = year, y = deaths, fill = type)) +
+  geom_col(position = "stack") +
+  scale_fill_manual(values = c(
+    children_deaths = "maroon",
+    adult_deaths = "darkblue"
+  )) +
+  labs(
+    title = "Children vs Adult Deaths per Year from Drone Strikes",
+    x = "Year", y = "People killed"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+drones |> 
+  group_by(confirmed_possible_us_strike) |>
+  count(area)
+```
+
+```{r}
+drones |> 
+  mutate(
+    month = format(as.Date(date), "%m")
+  ) |>
+  count(month)
+
+drones |> 
+  mutate(
+    month = format(as.Date(date), "%m")
+  ) |>
+  group_by(year) |>
+  count(month)
+```
+
+```{r}
+drones |>
+  count(type_of_attack)
+```
+
+```{r}
+library(dplyr)
+
+drones %>% 
+  summarise(
+    drones_total = sum(drone_strike, na.rm = TRUE),
+    airstrike_total = sum(air_strike_, na.rm = TRUE)
+  )
+
+```
+
+
+
