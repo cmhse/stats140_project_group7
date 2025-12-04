@@ -1,0 +1,214 @@
+---
+title: "Stats 140XP Group Project Data Transformation Code"
+author: "Charlie Hoose, JJ Svenson, Kendall Keely, Blair Warren, Mackenzie Lindhold, Claire Nabours"
+date: "2025-12-02"
+output: pdf_document
+---
+
+We are looking at drone strike data of US drones on Yemen, Pakistan, and Somalia. The following code is all of the data preprocessing and manipulation used to create the final dataset used for EDA, visualizations, and statistical analysis.
+
+```{r}
+#install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+library(stringr)
+library(tidyverse)
+```
+
+
+Somalia dataset
+```{r}
+excel_sheets("us-strikes-in-somalia-2007-to-present.xlsx")
+df_somalia <- read_excel("us-strikes-in-somalia-2007-to-present.xlsx", sheet = 3)
+head(df_somalia)
+```
+
+Yemen dataset
+```{r}
+excel_sheets("us-strikes-in-yemen-2002-to-present.xlsx")
+df_yemen <- read_excel("us-strikes-in-yemen-2002-to-present.xlsx", sheet = 3)
+head(df_yemen)
+```
+
+Pakistan dataset
+```{r}
+excel_sheets("cia-and-us-military-drone-strikes-in-pakistan-2004-to-present.xlsx")
+df_pakistan <- read_excel("cia-and-us-military-drone-strikes-in-pakistan-2004-to-present.xlsx", sheet = 3)
+head(df_pakistan)
+```
+
+Now the political dataset, data is from:
+https://history.house.gov/Institution/Presidents-Coinciding/Party-Government/ 
+```{r}
+df_party <- read_excel("political_swing.xlsx")
+head(df_party)
+```
+
+At this point, we can join the political dataset onto each of the drone datasets, so we have the political parties in control of the House, Senate, and Presidency during each strike.
+
+```{r}
+# pakistan dataset
+df_pakistan <- df_pakistan %>%
+  mutate(Year = year(Date)) %>%
+  left_join(df_party, by = "Year")
+head(df_pakistan,5)
+
+# yemen dataset
+df_yemen <- df_yemen %>%
+  mutate(Year = year(Date)) %>%
+  left_join(df_party, by = "Year")
+head(df_yemen,5)
+
+# somalia dataset
+df_somalia <- df_somalia %>%
+  mutate(Year = year(Date)) %>%
+  left_join(df_party, by = "Year")
+head(df_somalia,5)
+```
+
+Now we can convert these to csvs for later use in our project
+```{r}
+write.csv(df_pakistan, "df_pakistan.csv", row.names = FALSE)
+write.csv(df_yemen, "df_yemen.csv", row.names = FALSE)
+write.csv(df_somalia, "df_somalia.csv", row.names = FALSE)
+```
+
+
+We can continue the data pre-processing step by combining the separate datasets into one grand dataset:
+
+```{r}
+df_yemen <- df_yemen %>% mutate(Country = "Yemen")
+df_pakistan <- df_pakistan %>% mutate(Country = "Pakistan")
+df_somalia <- df_somalia %>% mutate(Country = "Somalia")
+
+# To combine the 3 tables into 1, we need to standardize the column names between the datasets so they join/line up correctly
+df_yemen2 <- df_yemen %>% rename(
+  Area = Province,
+  `Confirmed/Possible US Strike` = `Confirmed/\r\npossible US attack?`,
+  `Type of Attack` = `Type of attack`,
+  `Air strike?` = `Air operation?`,
+  `Min Strikes` = `Minimum strikes`,
+  `Max Strikes` = `Maximum strikes`,
+  `Min People Killed` = `Minimum people killed`,
+  `Max People Killed` = `Maximum people killed`,
+  `Min Civilians Killed` = `Minimum civilians killed`,
+  `Max Civilians Killed` = `Maximum civilians killed`,
+  `Min Children Killed` = `Minimum children killed`,
+  `Max Children Killed` = `Maximum children killed`,
+  `Min People Injured` = `Minimum people injured`,
+  `Max People Injured` = `Maximum people injured`,
+  `Strike Link` = `Strike link`
+)
+
+df_pakistan2 <- df_pakistan %>% rename(
+  `Min People Killed` = `Minimum people killed`,
+  `Max People Killed` = `Maximum people killed`,
+  `Min Civilians Killed` = `Minimum civilians killed`,
+  `Max Civilians Killed` = `Maximum civilians killed`,
+  `Min Children Killed` = `Minimum children killed`,
+  `Max Children Killed` = `Maximum children killed`,
+  `Min People Injured` = `Minimum people injured`,
+  `Max People Injured` = `Maximum people injured`,
+  `Strike Link` = `Strike link`
+)
+
+df_somalia2 <- df_somalia %>% rename(
+  `Confirmed/Possible US Strike` = `Confirmed/\r\npossible US strike`,
+  `Type of Attack` = `Strike type`,
+  `Min Strikes` = `Minimum strikes`,
+  `Max Strikes` = `Maximum strikes`,
+  `Min People Killed` = `Minimum people killed`,
+  `Max People Killed` = `Maximum people killed`,
+  `Min Civilians Killed` = `Minimum civilians killed`,
+  `Max Civilians Killed` = `Maximum civilians killed`,
+  `Min Children Killed` = `Minimum children killed`,
+  `Max Children Killed` = `Maximum children killed`,
+  `Min People Injured` = `Minimum people injured`,
+  `Max People Injured` = `Maximum people injured`,
+  `Strike Link` = `Strike link`
+)
+
+
+combined_df <- bind_rows(df_yemen2, df_pakistan2, df_somalia2)
+combined_df <- combined_df %>% select(Country, everything()) # to get country in first row since that is the defining column that we can use to differentiate data
+head(combined_df)
+#write.csv(combined_df, "df_combined.csv", row.names = FALSE)
+# since we rewrite over this later, we can comment out this write.csv
+```
+
+Continuing, we can do some error handling and erroneous data checking. For max and min strikes, there are some rows where max - min is negative, which obviously means the data is messed up. Furthermore, for max and min people injured, there is a negative instance of max - min. Because there are so few cases for this, we can just remove the data without worrying about losing the shape of our data.
+
+```{r}
+# see the distribution of max - min to identify negatives
+table(combined_df$`Max Strikes`-combined_df$`Min Strikes`)
+table(combined_df[,19]-combined_df[,18])
+
+# remove the incorrect rows
+rows_to_remove <- which((combined_df[,19] - combined_df[,18]) < 0)
+combined_df[rows_to_remove, ]
+combined_df <- combined_df[-rows_to_remove, ]
+
+rows_to_remove_2 <- which((combined_df$`Max Strikes`-combined_df$`Min Strikes`) < 0)
+combined_df[rows_to_remove_2,]
+combined_df <- combined_df[-rows_to_remove_2, ]
+```
+
+
+To continue our data processing, we can create some new columns for better analysis later on. We can make a middle column between min and max for many of the values, like finding the middle between min and max number of strikes. We will use the median for this value, although technically the mean would be the same since n=2.
+
+```{r}
+combined_df$`Med Strikes` <- (combined_df$`Min Strikes` + combined_df$`Max Strikes`) / 2
+
+combined_df$`Med People Killed` <- (combined_df$`Min People Killed` + combined_df$`Max People Killed`) / 2
+
+combined_df$`Med Civilians Killed` <- (combined_df$`Min Civilians Killed` + combined_df$`Max Civilians Killed`) / 2
+
+combined_df$`Med Children Killed` <- (combined_df$`Min Children Killed` + combined_df$`Max Children Killed`) / 2
+
+combined_df$`Med People Injured` <- (combined_df$`Min People Injured` + combined_df$`Max People Injured`) / 2
+
+head(combined_df)
+```
+
+
+Although we already have a column examining if the majority party in control of the Senate and House of Representatives matches that of the presidency, it also might be nice to see if there is unification between the House and Senate. We can create that column below.
+
+```{r}
+combined_df$`Legislative Unified?` <- ifelse(
+  combined_df$`House Majority Party` == combined_df$`Senate Majority Party`,
+  combined_df$`House Majority Party`, "No")
+head(combined_df)
+```
+
+
+After doing some basic EDA (not included in this file), we have come to the realization that the current way that the columns are titled is annoying, inefficient, and frankly we don't like using `` every time we want to reference a column. Therefore, we can use some simple regex manipulation to get the column titles into a more simple and reference-able state, as shown below.
+
+```{r}
+colnames(combined_df) <- colnames(combined_df) %>%
+  tolower() %>%                    
+  str_replace_all(" ", "_") %>%     
+  str_replace_all("[/?]", "_")      
+head(combined_df)
+```
+
+
+Continuing, we can also create columns for the amount of militant individuals affected by US drone strikes. Since we have the fields for people and civilians, we can assume that the difference between those two would be for military-related individuals. Hence, we can create the same min, medium, and max fields for militants.
+
+```{r}
+combined_df$min_military_killed <- combined_df$min_people_killed - combined_df$min_civilians_killed
+
+combined_df$max_military_killed <- combined_df$max_people_killed - combined_df$max_civilians_killed
+
+combined_df$med_military_killed <- (combined_df$max_military_killed  + combined_df$min_military_killed) / 2
+
+head(combined_df)
+```
+
+
+Finally, we can rewrite our csv to export for EDA, data analysis, statistical testing, etc.
+```{r}
+write.csv(combined_df, "df_combined.csv", row.names = FALSE)
+```
+

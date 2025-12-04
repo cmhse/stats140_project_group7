@@ -1,0 +1,451 @@
+"Strike ID","Date","Location","Province","Type of attack","Confirmed/
+possible US attack?","Air operation?","Drone strike","Minimum strikes","Maximum strikes","Minimum people killed","Maximum people killed","Minimum civilians killed","Maximum civilians killed","Minimum children killed","Maximum children killed","Minimum people injured","Maximum people injured","Strike link","extra","Year","House Majority Party","Senate Majority Party","Presidential Party","Unified?"
+"YEM001",2002-11-03,"Unknown","Marib","Drone strike","Confirmed",1,1,1,1,6,6,0,0,0,0,0,0,"YEM001",NA,2002,"Republican","Democrat","Republican","No"
+"YEM002",2009-12-17,"Al Majala","Abyan","Cruise missile strike","Confirmed",0,0,1,1,55,58,44,44,21,22,9,9,"YEM002",NA,2009,"Democrat","Democrat","Democrat","Democrat"
+"YEM003",2009-12-17,"Arhab","Sanaa","US-Yemen ground operation
+Possible drone strike","Confirmed",0,0,1,1,0,0,0,0,0,0,0,0,"YEM003",NA,2009,"Democrat","Democrat","Democrat","Democrat"
+"YEM004",2009-12-24,"Rafd","Shabwa","Airstrike
+Possible cruise missile strike","Confirmed",1,0,1,1,30,34,0,0,0,0,0,0,"YEM004",NA,2009,"Democrat","Democrat","Democrat","Democrat"
+"YEM005",2010-01-12,"Unknown","Shabwa","Yemen ground operation
+Possible US assistance","Possible",0,0,1,1,1,2,0,0,0,0,0,0,"YEM005",NA,2010,"Democrat","Democrat","Democrat","Democrat"
+"YEM006",2010-01-15,"Al Ajashir","Saada","Airstrike","Possible",1,0,1,1,0,6,0,0,0,0,0,0,"YEM006",NA,2010,"Democrat","Democrat","Democrat","Democrat"
+"YEM007",2010-01-20,"Erq al Shawan","Marib","Airstrike","Possible",1,0,4,4,2,2,0,0,0,0,0,0,"YEM007",NA,2010,"Democrat","Democrat","Democrat","Democrat"
+"YEM008",2010-01-31,"N/A","Across Yemen","US ground operations","Possible",0,0,24,24,0,0,0,0,0,0,0,0,"YEM008",NA,2010,"Democrat","Democrat","Democrat","Democrat"
+"YEM009",2010-03-14,"Jeezat al Qotn
+Moudia district","Abyan","Airstrike","Confirmed",1,0,1,1,2,3,0,0,0,0,0,0,"YEM009",NA,2010,"Democrat","Democrat","Democrat","Democrat"
+"YEM010",2010-03-15,"Moudia","Abyan","Airstrike","Possible",1,0,1,1,7,20,0,20,0,0,0,0,"YEM010",NA,2010,"Democrat","Democrat","Democrat","Democrat"
+"YEM011",2010-05-24,"Unknown","Marib","Airstrike","Confirmed",1,0,1,1,3,4,3,4,0,0,2,3,"YEM011",NA,2010,"Democrat","Democrat","Democrat","Democrat"
+"YEM012",2011-05-05,"Unknown","Shabwa","Drone strike
+Airstrike with US conventional aircraft","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"YEM012",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM013",2011-06-03,"Zinjibar","Abyan","Drone strike","Confirmed",1,1,1,1,7,7,4,4,0,0,0,0,"YEM013",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM014",2011-06-10,"Zinjibar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,1,1,0,0,0,0,0,0,"YEM014",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM015",2011-06-10,"Raia","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,3,2,3,2,3,1,1,0,1,"YEM015",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM016",2011-06-18,"Jaar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,0,0,0,0,0,0,6,6,"YEM016",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM017",2011-07-14,"Wadeea district
+Mudiya","Abyan","Drone strike","Confirmed",1,1,1,1,6,50,30,30,0,0,0,0,"YEM017",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM018",2011-07-14,"Unknown","Abyan","Drone strike","Possible",1,1,1,1,0,0,0,0,0,0,0,0,"YEM018",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM019",2011-07-27,"Karadeef
+Zinjibar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,5,5,0,0,0,0,0,0,"YEM019",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM020",2011-08-01,"Al Khamila","Abyan","Drone strike
+Possible Yemen Air Force airstrike","Confirmed",1,1,2,4,13,16,0,0,0,0,12,17,"YEM020",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM021",2011-08-24,"Zinjibar","Abyan","Airstrike","Possible",1,0,1,1,30,30,0,0,0,0,40,40,"YEM021",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM022",2011-08-24,"Arkoub","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,6,6,0,0,0,0,0,0,"YEM022",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM023",2011-08-25,"Wadi Hassan","Abyan","Airstrike","Possible",1,0,1,1,8,8,0,0,0,0,3,3,"YEM023",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM024",2011-08-31,"Unknown","Abyan","Airstrike","Confirmed",1,0,2,2,30,30,0,0,0,0,0,0,"YEM024",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM025",2011-09-05,"Jaar","Abyan","Airstrike","Possible",1,0,1,1,3,7,3,7,0,0,4,4,"YEM025",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM026",2011-09-05,"Jaar","Abyan","Airstrike","Possible",1,0,2,2,9,11,1,1,1,1,2,2,"YEM026",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM027",2011-09-07,"Mahfed","Abyan","Drone strike","Confirmed",1,1,2,3,3,10,0,0,0,0,2,24,"YEM027",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM028",2011-09-21,"Mahfed","Abyan","Drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"YEM028",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM029",2011-09-21,"Shaqra","Abyan","Airstrike","Possible",1,0,1,1,6,7,0,0,0,0,3,3,"YEM029",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM030",2011-09-30,"Unknown","Jawf","Drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"YEM030",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM031",2011-10-05,"Al Arqoub","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,5,5,0,0,0,0,7,7,"YEM031",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM032",2011-10-14,"Azzan","Shabwa","Drone strike","Confirmed",1,1,1,1,0,0,0,0,0,0,0,0,"YEM032",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM033",2011-10-14,"Azzan","Shabwa","Drone strike","Confirmed",1,1,1,1,7,9,2,2,2,2,0,0,"YEM033",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM034",2011-10-14,"Unknown","Southern Yemen","Airstrike
+Possible drone strike","Possible",1,1,1,1,15,17,0,0,0,0,0,0,"YEM034",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM035",2011-10-14,"Azzan","Shabwa","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,2,1,2,1,1,0,0,"YEM035",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM036",2011-12-22,"Zinjibar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,1,1,0,0,0,0,0,0,"YEM036",NA,2011,"Republican","Democrat","Democrat","No"
+"YEM037",2012-01-31,"Lawder","Abyan","Drone strike","Confirmed",1,1,1,1,10,14,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM037","www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#",2012,"Republican","Democrat","Democrat","No"
+"YEM038",2012-01-31,"Unknown","Abyan","Airstrike","Confirmed",1,0,3,3,0,0,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM038",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM039",2012-03-09,"Unknown","Bayda","Drone strike","Confirmed",1,1,1,1,23,34,2,2,0,0,0,55,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM039",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM040",2012-03-10,"Jaar and Zinjibar","Abyan","Drone strike","Confirmed",1,1,2,2,24,24,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM040",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM041",2012-03-11,"Jebel Khanfar
+Near Jaar","Abyan","Drone strike","Confirmed",1,1,1,1,3,6,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM041",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM042",2012-03-13,"Unknown","Bayda","Drone strike","Confirmed",1,1,1,7,4,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM042",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM043",2012-03-18,"Zinjibar","Abyan","Airstrike
+Possible naval bombardment
+Possible drone strike","Possible",1,1,1,2,14,18,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM043",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM044",2012-03-18,"Jaar","Abyan","Airstrike","Possible",1,0,1,1,8,8,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM044",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM045",2012-03-22,"Zinjibar","Abyan","Drone strike
+Possible naval bombardment","Confirmed",1,1,3,4,29,30,0,0,0,0,24,24,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM045",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM046",2012-03-30,"Azzan","Shabwa","Drone strike","Confirmed",1,1,2,2,5,5,1,1,0,0,6,9,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM046",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM047",2012-04-07,"Unknown","Shabwa","Drone strike","Confirmed",1,1,1,1,0,8,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM047",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM048",2012-04-08,"Unknown","Abyan","Airstrike - joint Yemeni and US
+Possible drone strike","Possible",1,1,2,2,16,16,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM048",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM049",2012-04-11,"Lawder","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,10,14,0,0,0,0,10,10,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM049",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM050",2012-04-14,"Al Zahir","Bayda","Drone strike","Confirmed",1,1,1,1,3,7,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM050",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM051",2012-04-16,"Azzan","Shabwa","Drone strike","Confirmed",1,1,1,5,5,7,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM051",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM052",2012-04-18,"Lawder and Jaar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,3,6,10,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM052",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM053",2012-04-21,"Lawder","Abyan","Airstrike
+Possible drone strike","Possible",1,1,2,2,12,17,0,0,0,0,0,5,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM053",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM054",2012-04-22,"Sanda","Marib","Drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM054",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM055",2012-04-23,"Nasab","Shabwa","Airstrike
+Possible drone strike","Confirmed",1,1,1,1,3,3,0,0,0,0,2,2,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM055",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM056",2012-04-23,"Lawder","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,0,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM056",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM057",2012-04-26,"Moudia","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM057",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM058",2012-04-29,"Unknown","Jawf","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM058",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM059",2012-04-30,"Lawder","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,4,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM059",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM060",2012-04-30,"Jaar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM060",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM061",2012-05-02,"Zinjibar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,10,15,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM061",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM062",2012-05-06,"Wadi Rafad","Shabwa","Drone strike","Confirmed",1,1,1,1,2,4,1,1,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM062",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM063",2012-05-10,"Jaar","Abyan","Airstrike
+Possible naval bombardment
+Possible drone strike","Possible",1,1,2,2,5,12,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM063",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM064",2012-05-10,"Shaqra","Abyan","Airstrike
+Possible naval bombardment
+Possible drone strike","Possible",1,1,1,1,2,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM064",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM065",2012-05-12,"Al Hosoon","Marib","Drone strike","Confirmed",1,1,1,1,6,7,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM065",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM066",2012-05-12,"Unknown","Between Marib and Shabwa","Drone strike","Confirmed",1,1,1,1,10,10,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM066",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM067",2012-05-12,"Al Ain","Shabwa/Hadramout","Airstrike
+Possible drone strike","Possible",1,1,1,1,6,10,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM067",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM068",2012-05-14,"Shaqra","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,10,10,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM068",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM069",2012-05-14,"Lawder","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,6,6,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM069",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM070",2012-05-14,"Jaar","Abyan","Airstrike","Possible",1,0,1,1,0,0,0,0,0,0,2,2,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM070",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM071",2012-05-15,"Jaar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,2,4,14,42,14,26,0,0,20,21,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM071",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM072",2012-05-16,"Moudia","Abyan","Airstrike
+Possible naval bombardment
+Possible drone strike","Possible",1,1,1,2,16,16,0,0,0,0,5,14,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM072",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM073",2012-05-17,"Shibam","Hadhramout","Drone strike","Confirmed",1,1,1,1,2,3,0,0,0,0,0,2,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM073",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM074",2012-05-17,"Shaqra","Abyan","Airstrike","Possible",1,0,1,1,5,6,0,2,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM074",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM075",2012-05-19,"Jaar","Abyan","Airstrike","Possible",1,0,1,1,3,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM075",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM076",2012-05-19,"Unknown","Bayda","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,2,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM076",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM077",2012-05-20,"Jaar","Abyan","Airstrike","Possible",1,0,1,1,0,9,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM077",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM078",2012-05-28,"Manaseh","Bayda","Drone strike","Confirmed",1,1,1,1,3,5,0,2,0,0,4,4,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM078",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM079",2012-05-28,"Mukalla","Abyan","Airstrike
+Possible naval bombardment
+Possible drone strike","Possible",1,1,1,1,5,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM079",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM080",2012-06-01,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,11,12,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM080",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM081",2012-06-07,"Moudia","Abyan","Airstrike","Possible",1,0,1,1,2,2,0,0,0,0,7,7,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM081",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM082",2012-06-07,"Jaar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM082",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM083",2012-06-07,"Jaar","Abyan","Airstrike","Possible",1,0,1,1,5,5,0,0,0,0,3,3,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM083",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM084",2012-06-11,"Azzan","Shabwa","Airstrike","Possible",1,0,1,1,16,16,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM084",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM085",2012-06-13,"Jaar","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,4,10,18,0,0,0,0,1,1,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM085",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM086",2012-06-13,"Azzan","Shabwa","Drone strike","Confirmed",1,1,1,1,9,9,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM086",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM087",2012-06-15,"Azzan","Shabwa","Airstrike","Possible",1,0,1,1,5,5,0,0,0,0,2,2,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM087",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM088",2012-06-15,"Shaqra","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,5,7,5,7,4,6,4,5,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM088",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM089",2012-06-19,"Unknown","Shabwa","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM089",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM090",2012-06-20,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,1,1,1,1,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM090",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM091",2012-06-20,"Al Yafea","Bayda","Airstrike","Possible",1,0,6,6,5,30,0,0,0,0,6,6,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM091",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM092",2012-06-25,"Mahfed","Abyan","Drone strike","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM092",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM093",2012-07-03,"Bayhan","Shabwa","Drone strike","Confirmed",1,1,1,1,2,5,0,0,0,0,2,2,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM093",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM094",2012-07-04,"Mahfed","Abyan","Airstrike","Possible",1,0,1,4,3,13,0,0,0,0,7,7,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM094",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM095",2012-07-23,"Mahfed","Abyan","Airstrike","Possible",1,0,1,1,5,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM095",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM096",2012-08-04,"Al Qotn","Hadhramout","Drone strike","Confirmed",1,1,1,1,3,5,0,0,0,0,2,2,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM096",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM097",2012-08-06,"Radaa","Bayda","Drone strike","Confirmed",1,1,1,1,7,7,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM097",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM098",2012-08-07,"Al Qotn","Hadhramout","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,3,0,0,0,0,2,2,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM098",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM099",2012-08-28,"Qahb al-Hisan","Hadhramout","Drone strike","Confirmed",1,1,1,1,2,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM099",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM100",2012-08-29,"Al Qotn","Hadhramout","Drone strike","Confirmed",1,1,1,1,5,5,2,2,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM100",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM101",2012-08-31,"Hawda","Hadhramout","Drone strike","Confirmed",1,1,1,1,8,8,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM101",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM102",2012-09-02,"Radaa","Bayda","US airstrike
+Possible drone strike","Confirmed",1,0,1,1,12,12,12,12,3,3,4,11,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM102",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM103",2012-09-05,"Al Ain","Shabwa/Hadramout","Drone strike","Confirmed",1,1,1,1,4,6,1,4,0,0,3,3,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM103",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM104",2012-09-10,"Al Ain","Shabwa/Hadramout","Drone strike","Confirmed",1,1,1,2,6,15,0,0,0,0,3,3,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM104",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM105",2012-09-20,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,2,2,4,0,0,0,0,3,3,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM105",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM106",2012-10-04,"Al Saeed","Shabwa","Drone strike","Confirmed",1,1,1,2,3,6,0,0,0,0,2,4,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM106",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM107",2012-10-18,"Jaar","Abyan","Drone strike","Confirmed",1,1,2,3,7,9,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM107",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM108",2012-10-21,"Maarib","Marib","Drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM108",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM109",2012-10-28,"Wadi al Abu Jabara","Saada","Drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,1,1,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM109",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM110",2012-11-07,"Beit al Ahan","Sanaa","Drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,2,3,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM110",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM111",2012-12-24,"Manaseh","Bayda","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,3,0,0,0,0,3,3,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM111",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM112",2012-12-24,"Shehr","Hadhramout","Airstrike
+Possible drone strike","Possible",1,1,1,3,3,7,0,0,0,0,1,1,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM112",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM113",2012-12-28,"Shehr","Hadhramout","Airstrike
+Possible drone strike","Possible",1,1,1,2,2,3,0,0,0,0,0,1,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM113",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM114",2012-12-29,"Manaseh","Bayda","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,4,0,0,0,0,0,2,"www.thebureauinvestigates.com/2012/05/08/yemen-reported-us-covert-action-2012/#YEM114",NA,2012,"Republican","Democrat","Democrat","No"
+"YEM115",2013-01-01,"Unknown","Shabwa","Airstrike
+Possible drone strike","Possible",1,1,1,1,1,1,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM115","www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#",2013,"Republican","Democrat","Democrat","No"
+"YEM116",2013-01-04,"Radaa","Bayda","Drone strike","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM116",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM117",2013-01-19,"Wadi Abida","Marib","Drone strike","Confirmed",1,1,1,1,0,0,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM117",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM118",2013-01-19,"Wadi Abida","Marib","Drone strike","Confirmed",1,1,1,1,2,4,0,3,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM118",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM119",2013-01-19,"Wadi Abida","Marib","Drone strike","Confirmed",1,1,1,1,4,6,0,4,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM119",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM120",2013-01-20,"Al Kanais","Marib","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM120",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM121",2013-01-21,"Nakhla","Marib","Drone strike","Confirmed",1,1,1,1,2,4,0,0,0,0,2,2,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM121",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM122",2013-01-22,"Al Boka","Jawf","Drone strike","Confirmed",1,1,1,1,3,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM122",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM123",2013-01-23,"Khawlan","Sanaa","Drone strike","Confirmed",1,1,1,1,4,4,2,2,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM123",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM124",2013-01-23,"Qayfa","Bayda","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM124",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM125",2013-04-17,"Wassab al Ali","Damar","Drone strike","Confirmed",1,1,1,1,4,4,0,4,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM125",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM126",2013-04-21,"Wadi Abida","Marib","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,2,0,0,0,0,2,3,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM126",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM127",2013-05-18,"Mahfed","Abyan","Drone strike","Confirmed",1,1,1,1,4,9,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM127",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM128",2013-05-20,"Radaa","Bayda","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,2,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM128",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM129",2013-06-01,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,2,7,8,0,0,0,0,2,3,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM129",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM130",2013-06-09,"Al Makashma/
+Khab al Shath","Jawf","Drone strike","Confirmed",1,1,1,1,2,7,1,1,1,1,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM130",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM131",2013-07-27,"Mahfed","Abyan","Drone strike","Confirmed",1,1,1,1,4,9,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM131",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM132",2013-07-30,"Al Saeed","Shabwa","Drone strike","Confirmed",1,1,1,1,3,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM132",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM133",2013-08-01,"Wadi Ser","Hadhramout","Drone strike","Confirmed",1,1,1,1,3,5,4,5,1,1,3,3,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM133",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM134",2013-08-06,"Wadi Abida","Marib","Drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM134",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM135",2013-08-07,"Markha","Shabwa","Drone strike","Confirmed",1,1,1,1,6,8,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM135",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM136",2013-08-08,"Wadi Abida","Marib","Drone strike","Confirmed",1,1,1,1,3,8,2,2,2,2,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM136",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM137",2013-08-08,"Al Ayoun","Hadhramout","Drone strike","Confirmed",1,1,1,1,2,7,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM137",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM138",2013-08-08,"Al Qotn","Hadhramout","Drone strike","Confirmed",1,1,1,1,3,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM138",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM139",2013-08-10,"Al Askariya","Lahj","Drone strike","Confirmed",1,1,1,1,2,5,0,0,0,0,2,5,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM139",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM140",2013-08-30,"Manaseh","Bayda","Drone strike","Confirmed",1,1,1,1,4,6,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM140",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM141",2013-11-19,"Ghayl Bawazir","Hadhramout","US airstrike
+Possible drone strike","Confirmed",1,1,1,1,5,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM141",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM142",2013-11-26,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,12,12,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM142",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM143",2013-12-09,"Al Qotn","Hadhramout","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM143",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM144",2013-12-12,"Radaa","Bayda","Drone strike","Confirmed",1,1,1,1,12,17,8,16,0,0,5,30,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM144",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM145",2013-12-27,"Shibam","Hadhramout","Airstrike
+Possible drone strike","Possible",1,1,1,1,1,6,0,0,0,0,0,0,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM145",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM146",2013-12-31,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,6,0,0,0,0,0,3,"www.thebureauinvestigates.com/2013/01/03/yemen-reported-us-covert-actions-2013/#YEM146",NA,2013,"Republican","Democrat","Democrat","No"
+"YEM147",2014-01-06,"Radaa","Bayda","Drone strike","Confirmed",1,1,1,1,0,0,0,0,0,0,0,2,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM147","www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#",2014,"Republican","Democrat","Democrat","No"
+"YEM148",2014-01-08,"Al Qotn","Hadhramout","Drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,2,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM148",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM149",2014-01-15,"Shibam","Hadhramout","Airstrike
+Possible drone strike","Possible",1,1,1,1,1,1,1,1,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM149",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM150",2014-01-24,"Wadi Abida","Marib","Drone strike","Confirmed",1,1,1,1,3,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM150",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM151",2014-02-03,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,0,4,0,0,0,0,0,2,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM151",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM152",2014-03-02,"Shabwan","Marib","Drone strike","Confirmed",1,1,1,1,2,3,0,0,0,0,2,2,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM152",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM153",2014-03-03,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,1,1,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM153",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM154",2014-03-03,"Radhum","Shabwa","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,4,0,0,0,0,2,2,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM154",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM155",2014-03-05,"Khalek","Jawf","Drone strike","Confirmed",1,1,1,1,2,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM155",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM156",2014-03-10,"Wadi Abida","Marib","Airstrike
+Possible drone strike","Possible",1,1,1,1,1,4,0,1,0,1,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM156",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM157",2014-03-12,"Khab Wal Saaf","Jawf","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM157",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM158",2014-04-01,"Mahfed","Abyan","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,4,4,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM158",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM159",2014-04-19,"Sawmaa","Bayda","Drone strike","Confirmed",1,1,1,1,13,21,3,8,0,0,1,6,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM159",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM160",2014-04-20,"Mahfed","Abyan","Drone strike
+Yemen Air Force airstrike","Confirmed",1,1,1,3,24,31,1,1,1,1,1,3,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM160",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM161",2014-04-21,"Usylan","Shabwa","US-Yemen ground operation
+Possible drone strike","Confirmed",0,0,1,1,3,4,1,1,1,1,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM161",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM162",2014-05-12,"Wadi Abida","Marib","Drone strike","Confirmed",1,1,1,1,4,6,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM162",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM163",2014-06-04,"Wadi Abida","Marib","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM163",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM164",2014-06-13,"Mafraq al Saeed","Marib","Drone strike","Confirmed",1,1,1,1,5,6,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM164",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM165",2014-06-21,"Unknown","Bayda","Airstrike
+Possible drone strike","Possible",1,1,1,1,0,0,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM165",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM166",2014-08-09,"Wadi Abida","Marib","Drone strike","Confirmed",1,1,1,1,3,3,0,0,0,0,2,2,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM166",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM167",2014-08-16,"Unknown","Hadhramout","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM167",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM168",2014-09-11,"Unknown","Shabwa","Drone strike","Confirmed",1,1,1,1,4,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM168",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM169",2014-09-25,"Nasab
+Near Ataq","Shabwa","Airstrike
+Possible drone strike","Possible",1,1,1,1,4,5,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM169",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM170",2014-09-26,"Khasaf","Jawf","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,3,0,0,0,0,3,3,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM170",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM171",2014-10-15,"Bani Assaf
+Mayfaa","Shabwa","Drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM171",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM172",2014-10-24,"Radaa","Bayda","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,10,0,10,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM172",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM173",2014-10-26,"Radaa","Bayda","Airstrike
+Possible drone strike
+Yemeni air and ground operations","Possible",1,1,1,1,12,20,2,10,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM173",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM174",2014-11-04,"Radaa","Bayda","Drone strike","Confirmed",1,1,3,3,9,20,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM174",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM175",2014-11-12,"Azzan","Shabwa","Drone strike","Confirmed",1,1,1,1,6,8,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM175",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM176",2014-11-26,"Hagr al Saiaar","Hadhramout","US-Yemen ground operation","Confirmed",0,0,1,1,7,7,0,0,0,0,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM176",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM177",2014-12-06,"Nasab","Shabwa","US drone strike","Confirmed",1,1,1,1,9,10,0,0,0,0,3,3,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM177",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM178",2014-12-06,"Dafaar","Shabwa","US ground operation
+Possible US air and drone strike","Confirmed",0,0,1,1,11,11,8,8,1,1,0,0,"www.thebureauinvestigates.com/2014/01/06/yemen-reported-us-covert-actions-2014/#YEM178",NA,2014,"Republican","Democrat","Democrat","No"
+"YEM179",2015-01-26,"Hareeb","Shabwa/Mareb border","US drone strike","Confirmed",1,1,1,1,3,3,1,2,1,1,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM179","http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#",2015,"Republican","Republican","Democrat","No"
+"YEM180",2015-01-31,"Al Saeed","Shabwa","US drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM180",NA,2015,"Republican","Republican","Democrat","No"
+"YEM181",2015-02-02,"Unknown","Bayda","US drone strike","Confirmed",1,1,1,1,3,6,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM181",NA,2015,"Republican","Republican","Democrat","No"
+"YEM182",2015-02-20,"Al Houta","Shabwa","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,3,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM182",NA,2015,"Republican","Republican","Democrat","No"
+"YEM183",2015-02-28,"Bihan region","Shabwa","Airstrike
+Possible drone strike","Possible",1,1,1,1,3,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM183",NA,2015,"Republican","Republican","Democrat","No"
+"YEM184",2015-03-01,"Markha district","Shabwa","Airstrike
+Possible drone strike","Possible",1,1,1,1,2,3,0,0,0,0,3,3,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM184",NA,2015,"Republican","Republican","Democrat","No"
+"YEM185",2015-04-12,"Mukalla","Hadhramout","US drone strike
+","Confirmed",1,1,1,1,3,7,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM185",NA,2015,"Republican","Republican","Democrat","No"
+"YEM186",2015-04-17,"Habban","Shabwa","US drone strike
+","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM186",NA,2015,"Republican","Republican","Democrat","No"
+"YEM187",2015-04-19,"Saeed district","Shabwa","US drone strike
+","Confirmed",1,1,1,1,2,6,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM187",NA,2015,"Republican","Republican","Democrat","No"
+"YEM188",2015-04-21,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,2,5,7,0,1,0,1,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM188",NA,2015,"Republican","Republican","Democrat","No"
+"YEM189",2015-05-08,"Mafraq","Shabwa","Airstrike
+Possible US drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM189",NA,2015,"Republican","Republican","Democrat","No"
+"YEM190",2015-05-10,"Ataq","Shabwa","Airstrike
+Possible US drone strike","Possible",1,1,1,1,1,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM190",NA,2015,"Republican","Republican","Democrat","No"
+"YEM191",2015-05-11,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,1,4,4,0,0,0,0,2,2,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM191",NA,2015,"Republican","Republican","Democrat","No"
+"YEM192",2015-05-16,"Unknown","Shabwa","US drone strike
+","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM192",NA,2015,"Republican","Republican","Democrat","No"
+"YEM193",2015-05-22,"Unknown","Shabwa","US drone strike
+","Confirmed",1,1,1,1,3,5,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM193",NA,2015,"Republican","Republican","Democrat","No"
+"YEM194",2015-06-02,"Unknown","Jawf","Airstrike
+Possible US drone strike","Possible",1,1,1,1,5,20,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM194",NA,2015,"Republican","Republican","Democrat","No"
+"YEM195",2015-06-09,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,1,3,3,0,0,0,0,2,2,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM195",NA,2015,"Republican","Republican","Democrat","No"
+"YEM196",2015-06-25,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,1,4,5,0,0,0,0,2,2,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM196",NA,2015,"Republican","Republican","Democrat","No"
+"YEM197",2015-06-26,"Rafadh","Shabwa","Airstrike
+Possible US drone strike","Possible",1,1,1,1,4,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM197",NA,2015,"Republican","Republican","Democrat","No"
+"YEM198",2015-06-26,"Mukalla","Hadramout","Airstrike
+Possible US drone strike","Possible",1,1,1,1,4,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM198",NA,2015,"Republican","Republican","Democrat","No"
+"YEM199",2015-07-03,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM199",NA,2015,"Republican","Republican","Democrat","No"
+"YEM200",2015-07-11,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,1,3,10,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM200",NA,2015,"Republican","Republican","Democrat","No"
+"YEM201",2015-07-29,"Wadi Dikha","Abyan","US drone strike
+","Confirmed",1,1,1,1,4,5,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM201",NA,2015,"Republican","Republican","Democrat","No"
+"YEM202",2015-08-12,"Mukalla-Rukob road","Hadramout","US drone strike
+","Confirmed",1,1,1,1,5,5,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM202",NA,2015,"Republican","Republican","Democrat","No"
+"YEM203",2015-08-21,"Harib","Marib","Airstrike, Possible US drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM203",NA,2015,"Republican","Republican","Democrat","No"
+"YEM204",2015-08-23,"Mukalla","Hadaramout","US drone strike
+","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM204",NA,2015,"Republican","Republican","Democrat","No"
+"YEM205",2015-08-26,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,1,5,5,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM205",NA,2015,"Republican","Republican","Democrat","No"
+"YEM206",2015-09-09,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,1,3,6,0,4,0,0,2,2,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM206",NA,2015,"Republican","Republican","Democrat","No"
+"YEM207",2015-09-11,"Unknown","Jawf-Mareb border","Airstrike, Possible US drone strike","Possible",1,1,1,1,4,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM207",NA,2015,"Republican","Republican","Democrat","No"
+"YEM208",2015-09-12,"Mukalla","Hadramout","US drone strike
+","Confirmed",1,1,1,1,4,5,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM208",NA,2015,"Republican","Republican","Democrat","No"
+"YEM209",2015-09-21,"Marib city","Marib","Airstrike, Possible US drone strike","Possible",1,1,1,1,2,2,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM209",NA,2015,"Republican","Republican","Democrat","No"
+"YEM210",2015-12-22,"Nata district","Bayda-Shabwa border","US drone strike
+","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"http://www.thebureauinvestigates.com/2015/01/26/yemen-reported-us-covert-actions-2015/#YEM210",NA,2015,"Republican","Republican","Democrat","No"
+"YEM211",2016-01-15,"Rafadh","Shabwa","US drone strike
+","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM211","https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#",2016,"Republican","Republican","Democrat","No"
+"YEM212",2016-01-19,"Sayoun","Hadramout","US drone strike
+","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM212",NA,2016,"Republican","Republican","Democrat","No"
+"YEM213",2016-02-03,"Rawda city","Shabwa","US drone strike
+","Confirmed",1,1,1,1,6,6,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM213",NA,2016,"Republican","Republican","Democrat","No"
+"YEM214",2016-02-03,"Maraquesha","Abyan","US drone strike
+","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM214",NA,2016,"Republican","Republican","Democrat","No"
+"YEM215",2016-02-15,"Huta","Lahij","Airstrike, Possible US drone strike","Possible",1,1,1,1,3,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM215",NA,2016,"Republican","Republican","Democrat","No"
+"YEM216",2016-02-29,"Unknown","Hadramout","US drone or air strike
+","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM216",NA,2016,"Republican","Republican","Democrat","No"
+"YEM217",2016-03-04,"Radhum","Shabwa","US drone strike
+","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM217",NA,2016,"Republican","Republican","Democrat","No"
+"YEM218",2016-03-22,"Hajr (75km W of Mukalla)","Hadramout","US air strike","Confirmed",1,0,1,1,50,71,0,0,0,0,28,30,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM218",NA,2016,"Republican","Republican","Democrat","No"
+"YEM219",2016-03-26,"Al Hudhn and Naqeel al Hayala villages","Abyan","Airstrike, Possible US drone strike","Possible",1,1,2,2,8,8,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM219",NA,2016,"Republican","Republican","Democrat","No"
+"YEM220",2016-03-26,"Zinjibar","Abyan","Airstrike, Possible US drone strike","Possible",1,1,1,1,6,6,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM220",NA,2016,"Republican","Republican","Democrat","No"
+"YEM221",2016-03-28,"Mukalla","Hadramout","Airstrike","Possible",1,0,1,1,5,5,3,3,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM221",NA,2016,"Republican","Republican","Democrat","No"
+"YEM222",2016-03-30,"Azzan","Shabwa","US drone strike","Confirmed",1,1,1,1,2,5,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM222",NA,2016,"Republican","Republican","Democrat","No"
+"YEM223",2016-03-30,"Mukalla","Hadramout","Airstrike","Possible",1,0,3,3,0,0,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM223",NA,2016,"Republican","Republican","Democrat","No"
+"YEM224",2016-04-03,"Mukalla","Hadramout","Airstrike, Possible US drone strike","Possible",1,1,4,5,0,0,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM224",NA,2016,"Republican","Republican","Democrat","No"
+"YEM225",2016-04-05,"Zinjibar","Abyan","Airstrike","Possible",1,0,2,2,0,0,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM225",NA,2016,"Republican","Republican","Democrat","No"
+"YEM226",2016-04-23,"Alemien","Mareb","US drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM226",NA,2016,"Republican","Republican","Democrat","No"
+"YEM227",2016-04-25,"Zinjibar","Abyan","US drone strike","Confirmed",1,1,1,1,3,6,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM227",NA,2016,"Republican","Republican","Democrat","No"
+"YEM228",2016-04-25,"Azzan","Shabwa","US drone strike","Confirmed",1,1,1,1,2,10,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM228",NA,2016,"Republican","Republican","Democrat","No"
+"YEM229",2016-04-28,"Unknown","Shabwa","US drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,1,1,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM229",NA,2016,"Republican","Republican","Democrat","No"
+"YEM230",2016-05-19,"Unknown","Shabwa","US drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM230",NA,2016,"Republican","Republican","Democrat","No"
+"YEM231",2016-06-09,"Unknown","Bayda","US drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM231",NA,2016,"Republican","Republican","Democrat","No"
+"YEM232",2016-06-10,"Unknown","Mareb","US drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM232",NA,2016,"Republican","Republican","Democrat","No"
+"YEM233",2016-06-12,"Haban","Shabwa","US drone strike","Confirmed",1,1,1,1,2,3,0,0,0,0,1,1,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM233",NA,2016,"Republican","Republican","Democrat","No"
+"YEM234",2016-07-01,"Gardan","Shabwa","US drone strike","Confirmed",1,1,1,1,3,6,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM234",NA,2016,"Republican","Republican","Democrat","No"
+"YEM235",2016-07-04,"Musaina","Shabwa","US drone strike","Confirmed",1,1,1,1,2,3,0,0,0,0,0,1,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM235",NA,2016,"Republican","Republican","Democrat","No"
+"YEM236",2016-07-08,"Unknown","Central Yemen","US drone strike","Confirmed",1,1,1,1,1,1,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM236",NA,2016,"Republican","Republican","Democrat","No"
+"YEM237",2016-07-10,"Jabul","Mareb","US drone strike","Possible",1,1,1,1,0,0,0,0,0,0,4,4,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM237",NA,2016,"Republican","Republican","Democrat","No"
+"YEM238",2016-07-16,"Al Uqlah","Shabwa","US drone strike","Confirmed",1,1,1,1,2,4,0,0,0,0,0,2,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM238",NA,2016,"Republican","Republican","Democrat","No"
+"YEM239",2016-08-04,"Azzan","Shabwa","US drone strike","Confirmed",1,1,1,1,2,4,0,0,0,0,2,4,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM239",NA,2016,"Republican","Republican","Democrat","No"
+"YEM240",2016-08-24,"Unknown","Shabwa","US drone strike","Confirmed",1,1,1,1,4,5,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM240",NA,2016,"Republican","Republican","Democrat","No"
+"YEM241",2016-08-30,"Unknown","Shabwa","US air or drone strike","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM241",NA,2016,"Republican","Republican","Democrat","No"
+"YEM242",2016-09-04,"Unknown","Shabwa","US air or drone strike","Confirmed",1,1,1,1,6,9,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM242",NA,2016,"Republican","Republican","Democrat","No"
+"YEM243",2016-09-13,"Radaa area","Bayda","US drone strike","Confirmed",1,1,1,1,5,5,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM243",NA,2016,"Republican","Republican","Democrat","No"
+"YEM244",2016-09-20,"Wadi Abida","Marib","US drone or air strike
+","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM244",NA,2016,"Republican","Republican","Democrat","No"
+"YEM245",2016-09-22,"Sawmaa district","Bayda","US air or drone strike","Confirmed",1,1,1,1,2,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM245",NA,2016,"Republican","Republican","Democrat","No"
+"YEM246",2016-09-23,"Unknown","Mareb","US drone strike","Confirmed",1,1,1,1,3,5,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM246",NA,2016,"Republican","Republican","Democrat","No"
+"YEM247",2016-09-29,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM247",NA,2016,"Republican","Republican","Democrat","No"
+"YEM248",2016-10-06,"Unknown","Shabwah","US air or drone strike","Confirmed",1,0,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM248",NA,2016,"Republican","Republican","Democrat","No"
+"YEM249",2016-10-12,"North of the Bab el-Mandeb strait","-","US cruise missle strike","Confirmed",0,0,3,3,0,0,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM249",NA,2016,"Republican","Republican","Democrat","No"
+"YEM250",2016-10-18,"Unknown","Shabwah","US air or drone strike","Confirmed",1,1,1,1,3,8,0,0,0,0,2,2,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM250",NA,2016,"Republican","Republican","Democrat","No"
+"YEM251",2016-10-21,"Unknown","Marib","US air or drone strike","Confirmed",1,0,1,1,5,5,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM251",NA,2016,"Republican","Republican","Democrat","No"
+"YEM252",2016-11-21,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,1,1,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM252",NA,2016,"Republican","Republican","Democrat","No"
+"YEM253",2016-11-24,"Sawmaah","Bayda","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM253",NA,2016,"Republican","Republican","Democrat","No"
+"YEM254",2016-11-30,"Unknown","Hadramout","US air or drone strike","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM254",NA,2016,"Republican","Republican","Democrat","No"
+"YEM255",2016-12-13,"Unknown","Marib/Al Jawf","US air or drone strike","Confirmed",1,1,1,1,4,4,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM255",NA,2016,"Republican","Republican","Democrat","No"
+"YEM256",2016-12-29,"Sawmaah","Bayda","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2016/01/18/yemen-reported-us-covert-actions-2016/#YEM256",NA,2016,"Republican","Republican","Democrat","No"
+"YEM257",2017-01-08,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,1,1,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM257","https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#",2017,"Republican","Republican","Republican","Republican"
+"YEM258",2017-01-20,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,1,1,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM258",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM259",2017-01-21,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,2,3,6,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM259",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM260",2017-01-22,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,2,1,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM260",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM261",2017-01-28,"Yakla","Bayda","US air and ground operation
+Special forces air assault and air support, possibly drone","Confirmed",0,0,1,1,39,39,25,25,10,10,7,7,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM261",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM262",2017-01-30,"Baihan","Shabwa","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM262",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM263",2017-03-02,"Unknown","Across central Yemen","US air or drone strikes","Confirmed",1,0,25,25,2,12,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM263",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM264",2017-03-03,"Unknown","Yemen","US air or drone strikes","Confirmed",1,0,5,10,1,8,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM264",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM265",2017-03-04,"Ahwar","Abyan","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM265",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM266",2017-03-06,"Unknown","Multiple provinces","US air or drone strikes","Confirmed",1,0,9,4,7,11,0,2,0,2,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM266",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM267",2017-03-31,"Unknown","Unknown","US air or drone strikes","Confirmed",1,0,10,10,0,0,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM267",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM268",2017-04-02,"Unknown","Shabwah","US air or drone strikes","Confirmed",1,0,20,20,0,0,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM268",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM269",2017-04-18,"Unknown","Marib","US air or drone strike","Confirmed",1,1,1,1,3,4,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM269",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM270",2017-04-23,"al Said","Shabwah","US air or drone strike","Confirmed",1,1,1,1,3,8,3,8,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM270",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM271",2017-04-24,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,8,8,0,0,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM271",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM272",2017-04-29,"Unknown","Marib","US air or drone strike","Confirmed",1,1,1,1,4,5,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM272",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM273",2017-04-29,"Unknown","Shabwah","US air or drone strike","Confirmed",1,0,1,1,3,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM273",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM274",2017-05-23,"Al Sirim area","Marib","US air and ground operation
+Special forces raid with air strikes, possibly drone","Confirmed",0,0,1,1,7,12,5,5,0,1,5,6,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM274",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM275",2017-06-16,"Al Naqba","Shabwah","US air or drone strike","Confirmed",1,1,1,1,2,3,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM275",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM276",2017-07-01,"Al Wadei","Abyan","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,"https://www.thebureauinvestigates.com/2017/01/13/yemen-reported-us-covert-actions-2017/#YEM276",NA,2017,"Republican","Republican","Republican","Republican"
+"YEM277",2017-08-13,"Marakishah","Abyan","US air or drone strike","Confirmed",1,1,1,1,0,3,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM278",2017-09-09,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,3,3,2,7,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM279",2017-09-16,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,8,6,0,0,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM280",2017-10-04,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,1,2,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM281",2017-10-08,"Raghwan","Marib","US air or drone strike","Confirmed",1,1,1,1,5,5,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM282",2017-10-16,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,2,2,50,50,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM283",2017-10-19,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,5,5,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM284",2017-10-19,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,7,7,0,0,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM285",2017-10-25,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,2,2,9,13,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM286",2017-11-02,"Al Wadi","Marib","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM287",2017-11-10,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM288",2017-11-11,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,1,1,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM289",2017-11-12,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,2,2,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM290",2017-11-19,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,1,1,2,2,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM291",2017-11-20,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,2,2,5,5,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM292",2017-11-23,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,1,1,2,2,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM293",2017-11-25,"Unknown","Shabwah","US air or drone strike","Confirmed",1,1,1,1,5,7,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM294",2017-11-26,"Qaifa","Bayda","US air or drone strike","Confirmed",1,1,1,1,3,3,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM295",2017-12-15,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,1,1,1,1,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM296",2017-12-19,"Unknown","Marib","US air or drone strike","Confirmed",1,0,1,1,1,1,0,0,0,0,0,0,NA,NA,2017,"Republican","Republican","Republican","Republican"
+"YEM297",2018-01-01,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,0,2,0,2,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM298",2018-01-26,"Said","Shabwah","US air or drone strike","Confirmed",1,1,1,1,7,7,7,7,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM299",2018-01-29,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,8,8,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM300",2018-02-11,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,6,6,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM301",2018-02-16,"Unknown","Bayda","US air or drone strike","Confirmed",1,1,1,1,2,3,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM302",2018-02-28,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,4,4,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM303",2018-03-05,"Unknown","Hadramout","US air or drone strike","Confirmed",1,1,1,1,1,4,0,1,0,1,0,1,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM304",2018-03-07,"Al Hudhi","Hadramout","US air or drone strike","Confirmed",1,1,1,1,1,1,1,1,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM305",2018-03-08,"Unknown","Hadramout","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM306",2018-03-09,"Al Abr","Hadramout","US air or drone strike","Possible",1,1,1,1,6,6,0,6,0,1,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM307",2018-03-22,"Wadi Abida","Marib","US air or drone strike","Possible",1,1,1,1,5,7,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM308",2018-03-26,"Unknown","Hadramout","US air or drone strike","Confirmed",1,0,3,3,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM309",2018-03-29,"Sawmaah","Bayda","US air or drone strike","Confirmed",1,1,1,1,3,4,0,3,0,0,0,2,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM310",2018-04-11,"Unknown","Hadramout","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM311",2018-04-23,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM312",2018-04-30,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,2,2,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM313",2018-05-14,"Unknown","Shabwah","US air or drone strike","Confirmed",1,1,1,1,2,3,0,1,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM314",2018-06-23,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM315",2018-06-30,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM316",2018-07-22,"Unknown","Hadramout","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM317",2018-07-24,"Unknown","Hadramout","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM318",2018-08-14,"Unknown","Unknown","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM319",2018-09-09,"Ahwar","Abyan","US air or drone strike","Confirmed",1,0,1,1,4,4,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM320",2018-09-18,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM321",2018-11-25,"al Qrishia","Bayda","US air or drone strike","Confirmed",1,1,1,1,5,8,0,0,0,0,0,0,NA,NA,2018,"Republican","Republican","Republican","Republican"
+"YEM322",2019-01-01,"Unknown","Marib","US air or drone strike","Confirmed",1,0,1,1,1,1,0,0,0,0,0,0,NA,NA,2019,"Democrat","Republican","Republican","No"
+"YEM323",2019-03-31,"Unknown","Bayda","US air or drone strike","Confirmed",1,0,6,6,0,0,0,0,0,0,0,0,NA,NA,2019,"Democrat","Republican","Republican","No"
+"YEM324",2019-06-24,"Dhi Naim","Badya","US air or drone strike","Confirmed",1,0,1,1,0,5,0,0,0,0,0,0,NA,NA,2019,"Democrat","Republican","Republican","No"
