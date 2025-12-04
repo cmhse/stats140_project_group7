@@ -6,3 +6,194 @@ output: pdf_document
 ---
 
 This file contains the code for all of the plots, graphs, etc. shown in this project. If there are issues running this code, please reach out.
+
+```{r}
+library(readxl)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+library(stringr)
+library(tidyverse)
+library(readr)
+df_pakistan <- read.csv("../data_files/df_pakistan.csv")
+df_somalia <- read.csv("../data_files/df_somalia.csv")
+df_yemen <- read.csv("../data_files/df_yemen.csv")
+combined_df <- read.csv("../data_files/df_combined.csv")
+```
+
+
+
+```{r}
+head(df_pakistan)
+df_pakistan %>%
+  # extract year from POSIXct
+  mutate(year = year(Date)) %>%
+  # group by year
+  group_by(year) %>%
+  # sum the column of interest, backticks because of spaces
+  summarize(total_killed = sum(`Maximum.children.killed`, na.rm = TRUE)) %>%
+  # plot
+  ggplot(aes(x = year, y = total_killed)) +
+  geom_col(fill = "steelblue") +
+  labs(title = "Maximum Children Reported Killed per Year",
+       x = "Year",
+       y = "Total Killed") +
+  theme_minimal()
+
+```
+
+
+
+
+```{r}
+combined_df %>%
+  group_by(year) %>%
+  # sum the column of interest, backticks because of spaces
+  summarize(total_killed = sum(max_people_killed, na.rm = TRUE),
+            Unified = first(unified_)) %>%
+  # plot
+  ggplot(aes(x = year, y = total_killed, fill = Unified)) +
+  geom_col() +
+    scale_fill_manual(values = c(
+    "Democrat" = "blue",
+    "Republican" = "red",
+    "No" = "grey"
+  )) +
+  labs(title = "Maximum People Killed per Year",
+       x = "Year",
+       y = "Total Killed") +
+  theme_minimal()
+
+```
+
+
+
+```{r}
+combined_df %>%
+  group_by(year) %>%
+  # sum the column of interest, backticks because of spaces
+  summarize(total_killed = sum(med_people_killed, na.rm = TRUE),
+            Unified = first(presidential_party)) %>%
+  # plot
+  ggplot(aes(x = year, y = total_killed, fill = Unified)) +
+  geom_col() +
+    scale_fill_manual(values = c(
+    "Democrat" = "blue",
+    "Republican" = "red",
+    "No" = "grey"
+  )) +
+  labs(title = "Maximum People Killed per Year",
+       x = "Year",
+       y = "Total Killed") +
+  theme_minimal()
+
+
+```
+
+# EDA for Project
+
+This is for the EDA assignment in week 7
+
+```{r}
+head(combined_df)
+
+# kills per yr per president
+combined_df %>%
+  group_by(year) %>%
+  # sum the column of interest, backticks because of spaces
+  summarize(total_killed = sum(med_people_killed, na.rm = TRUE),
+            `Presidential Party` = first(presidential_party)) %>%
+  # plot
+  ggplot(aes(x = year, y = total_killed, fill = `Presidential Party`)) +
+  geom_col() +
+    scale_fill_manual(values = c(
+    "Democrat" = "blue",
+    "Republican" = "red",
+    "No" = "grey"
+  )) +
+  labs(title = "Medium People Killed per Year",
+       x = "Year",
+       y = "Total Killed") +
+  theme_minimal()
+
+
+# kills per yr per unified or not
+combined_df %>%
+  group_by(year) %>%
+  # sum the column of interest, backticks because of spaces
+  summarize(total_killed = sum(med_people_killed, na.rm = TRUE),
+            Unified = first(unified_)) %>%
+  # plot
+  ggplot(aes(x = year, y = total_killed, fill = Unified)) +
+  geom_col() +
+    scale_fill_manual(values = c(
+    "Democrat" = "blue",
+    "Republican" = "red",
+    "No" = "grey"
+  )) +
+  labs(title = "Medium People Killed per Year",
+       x = "Year",
+       y = "Total Killed") +
+  theme_minimal()
+
+# unified congress on median people killed. -- JJ AND CHARLIE
+combined_df %>%
+  group_by(year) %>%
+  summarize(total_killed = sum(med_people_killed, na.rm = TRUE),
+            `Unified Congress?` = first(legislative_unified_)) %>%
+  ggplot(aes(x = year, y = total_killed, fill = `Unified Congress?`)) +
+  geom_col() +
+    scale_fill_manual(values = c("Democrat" = "blue", "Republican" = "red", "No" = "grey"))+
+  labs(title = "Median Foreign Individuals Killed per Year by US Drones",
+       x = "Year",
+       y = "Total Individuals Killed") +
+  theme_minimal()
+
+
+
+
+
+combined_df %>%
+  group_by(year, country) %>%
+  summarize(total_killed = sum(med_children_killed, na.rm = TRUE), .groups = "drop") %>%
+  ggplot(aes(x = year, y = total_killed, fill = country)) +
+  geom_col() +
+  labs(title = "Median Children Killed per Year (Stacked by Country)",
+       x = "Year",
+       y = "Total Killed") +
+  theme_minimal()
+```
+
+
+```{r}
+anova_df <- combined_df %>%
+  group_by(year, presidential_party) %>%
+  summarize(
+    attacks = sum(med_people_killed, na.rm = TRUE),
+    .groups = "drop"
+  )
+anova_result <- aov(attacks ~ presidential_party, data = anova_df)
+summary(anova_result)
+```
+
+```{r}
+df_plot <- combined_df %>%
+  group_by(year, presidential_party) %>%
+  summarize(
+    Military = sum(med_people_killed - med_civilians_killed, na.rm = TRUE),
+    Civilian = sum(med_civilians_killed, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  pivot_longer(cols = c(Military, Civilian), names_to = "kill_type", values_to = "count")
+
+# military vs civilian death rate per presidential party. -- JJ AND CHARLIE
+ggplot(df_plot, aes(x = year, y = count, fill = kill_type, color = presidential_party)) +
+  geom_col(position = "stack", linewidth = 1) +
+  scale_fill_manual(values = c("Military" = "gray38", "Civilian" = "gray")) +
+  scale_color_manual(values = c("Democrat" = "blue", "Republican" = "red")) +
+  labs(title = "Foreign Military and Civilian Deaths per Year\nAccounting for US Presidential Party in Control", x = "Year", y = "Number of Total People Killed",
+    fill = "Type of Person", color = "Presidential Party") +
+  theme_minimal()
+
+```
+
